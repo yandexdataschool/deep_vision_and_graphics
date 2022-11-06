@@ -1,1 +1,1 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_DL/blob/fall21/week08_gans_part2/gans_seminar_2_inversions.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/deep_vision_and_graphics/blob/fall22/week09-gans/gans_seminar_2_inversions.ipynb)
