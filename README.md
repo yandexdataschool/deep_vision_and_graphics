@@ -1,6 +1,6 @@
 # Deep Vision and Graphics
 
-This repo supplements course "Deep Vision and Graphics" taught at YSDA @fall'22.
+This repo supplements course "Deep Vision and Graphics" taught at YSDA @fall'23.
 The course is the successor of ["Deep Learning"](https://github.com/yandexdataschool/Practical_DL/tree/spring21/) course taught at YSDA in 2015-2021. New course focuses more on applications of deep learning for computer vision.
 
 Lecture and seminar materials for each week are in ./week* folders. Homeworks are in ./homework* folders.
@@ -21,15 +21,14 @@ Lecture and seminar materials for each week are in ./week* folders. Homeworks ar
 - __week07__ Object detection, instance/panoptic segmentation, 2D/3D human pose estimation
 - __week08__ Representation learning: face recognition, verification tasks, self-supervised learning, image captioning
 - __week09__ Generative adversarial networks
-- __week10__ Latent models (GLO, AEs, VQ-VAE, generative transformers)
-- __week11__ Flow models, diffusion models, generative transformers, CLIP, DALL-E
-- __week12__ Shape and motion estimation: spatial transformers, optical flow, stereo, monodepth, point cloud generation, implicit and semi-implicit shape representations
-- __week13__ New view synthesis: multi-plane images, neural radiance fields, mesh-based and point-based representations for NVS, neural renderers
+- __week10__ Latent models (GLO, AEs, VQ-VAE, generative transformers). Flow models, diffusion models, generative transformers, CLIP, DALL-E
+- __week11__ Shape and motion estimation: spatial transformers, optical flow, stereo, monodepth, point cloud generation, implicit and semi-implicit shape representations
+- __week12__ New view synthesis: multi-plane images, neural radiance fields, mesh-based and point-based representations for NVS, neural renderers
 
 
 # Contributors & course staff
 Course materials and teaching performed by
-- [Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/) - all main track lectures
-- [Victor Yurchenko](https://github.com/simflin) - seminars, homeworks, admin stuff
-- [Fedor Ratnikov](https://github.com/justheuristic/) - seminars, homeworks, admin staff
+- [Victor Yurchenko](https://github.com/simflin) - lectures, seminars, homeworks, admin stuff
+- [Fedor Ratnikov](https://github.com/justheuristic/) - lectures, seminars, homeworks, admin staff
+- [Viktoriia Checkalina](https://github.com/sayankotor/) - lectures, seminars, homeworks, admin staff
 - To be continued
