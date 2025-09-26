@@ -6,7 +6,6 @@ The course is the successor of ["Deep Learning"](https://github.com/yandexdatasc
 Lecture and seminar materials for each week are in ./week* folders. Homeworks are in ./homework* folders.
 
 # General info
-* Telegram [chat room](https://t.me/+rGY82guWzqI1YTky) (russian).
 * YSDA deadlines & admin stuff can be found at the YSDA LMS (ysda students only).
 * Any technical issues, ideas, bugs in course materials, contribution ideas - add an [issue](https://github.com/yandexdataschool/deep_vision_and_graphics/issues)
 
@@ -30,5 +29,4 @@ Lecture and seminar materials for each week are in ./week* folders. Homeworks ar
 Course materials and teaching performed by
 - [Victor Yurchenko](https://github.com/simflin) - lectures, seminars, homeworks, admin stuff
 - [Fedor Ratnikov](https://github.com/justheuristic/) - lectures, seminars, homeworks, admin staff
-- [Viktoriia Checkalina](https://github.com/sayankotor/) - lectures, seminars, homeworks, admin staff
 - To be continued
