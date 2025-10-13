@@ -1,6 +1,6 @@
 # Deep Vision and Graphics
 
-This repo supplements course "Deep Vision and Graphics" taught at YSDA @fall'24.
+This repo supplements course "Deep Vision and Graphics" taught at YSDA @fall'25.
 The course is the successor of ["Deep Learning"](https://github.com/yandexdataschool/Practical_DL/tree/spring21/) course taught at YSDA in 2015-2021. New course focuses more on applications of deep learning for computer vision.
 
 Lecture and seminar materials for each week are in ./week* folders. Homeworks are in ./homework* folders.
@@ -29,4 +29,7 @@ Lecture and seminar materials for each week are in ./week* folders. Homeworks ar
 Course materials and teaching performed by
 - [Victor Yurchenko](https://github.com/simflin) - lectures, seminars, homeworks, admin stuff
 - [Fedor Ratnikov](https://github.com/justheuristic/) - lectures, seminars, homeworks, admin staff
+- Kirill Struminsky - lectures 11&12, seminars, homeworks
+- Alexander Timofeev-Karakozov - seminars on detection and segmentation
+- Egor Kolesnikov - seminar on vision transformers
 - To be continued
