@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+venv/
+
+.ipynb_checkpoints/
+
+checkpoints/
+logs/
+lightning_logs/
+*.ckpt
+
+data/
