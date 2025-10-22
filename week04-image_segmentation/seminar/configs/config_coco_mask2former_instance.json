@@ -1,0 +1,39 @@
+{
+  "data": {
+    "root_dir": "../data/coco",
+    "split": "train",
+    "val_split": "val",
+    "test_split": "test",
+    "target_size": [360, 480],
+    "batch_size": 4,
+    "num_workers": 4,
+    "min_area": 100,
+    "mode": "instance"
+  },
+  "model": {
+    "name": "mask2former",
+    "num_classes": 1,
+    "num_queries": 100,
+    "hidden_dim": 256,
+    "nheads": 8,
+    "num_decoder_layers": 3
+  },
+  "training": {
+    "max_epochs": 50,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "early_stopping_patience": 25,
+    "checkpoint_save_top_k": 3,
+    "checkpoint_monitor": "val_loss",
+    "checkpoint_mode": "min",
+    "checkpoint_dirpath": "../checkpoints_coco_mask2former_instance",
+    "checkpoint_filename": "mask2former_instance_{epoch:02d}_{val_loss:.4f}",
+    "log_dir": "../logs",
+    "experiment_name": "mask2former_coco_instance",
+    "log_every_n_steps": 10
+  },
+  "hardware": {
+    "accelerator": "gpu",
+    "devices": 1
+  }
+}
