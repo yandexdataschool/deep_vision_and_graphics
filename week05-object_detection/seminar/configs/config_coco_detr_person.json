@@ -1,0 +1,42 @@
+{
+  "data": {
+    "root_dir": "../data/coco",
+    "split": "train",
+    "val_split": "val",
+    "test_split": "test",
+    "target_size": [640, 640],
+    "batch_size": 4,
+    "num_workers": 4,
+    "min_area": 100,
+    "filter_categories": ["person"]
+  },
+  "model": {
+    "name": "detr",
+    "num_classes": 1,
+    "num_queries": 100,
+    "emb_dim": 256,
+    "nhead": 8,
+    "enc_layers": 6,
+    "dec_layers": 6,
+    "pretrained": true
+  },
+  "training": {
+    "max_epochs": 100,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "optimizer": "adamw",
+    "early_stopping_patience": 25,
+    "checkpoint_save_top_k": 3,
+    "checkpoint_monitor": "val_map",
+    "checkpoint_mode": "max",
+    "checkpoint_dirpath": "../checkpoints_coco_detr_person",
+    "checkpoint_filename": "detr_person_{epoch:02d}_{val_map:.4f}",
+    "log_dir": "../logs",
+    "experiment_name": "detr_coco_person",
+    "log_every_n_steps": 10
+  },
+  "hardware": {
+    "accelerator": "gpu",
+    "devices": 1
+  }
+}
