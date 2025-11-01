@@ -1,0 +1,43 @@
+{
+  "data": {
+    "data_dir": "../data/coco",
+    "train_ann": "../data/coco/annotations/instances_val2017_train_labeled500.json",
+    "val_ann": "../data/coco/annotations/instances_val2017_val.json",
+    "test_ann": "../data/coco/annotations/instances_val2017_test.json",
+    "image_size": [360, 480],
+    "batch_size": 4,
+    "num_workers": 4,
+    "pin_memory": true,
+    "depth_dir": null
+  },
+  "model": {
+    "name": "unet_rgb",
+    "target": "models.UNetResNet50RGB",
+    "pretrained": true
+  },
+  "training": {
+    "max_epochs": 40,
+    "learning_rate": 0.00005,
+    "weight_decay": 0.0001,
+    "optimizer": "adamw",
+    "precision": "16-mixed",
+    "seed": 42,
+    "log_every_n_steps": 20,
+    "gradient_clip_val": 1.0,
+    "accumulate_grad_batches": 1,
+    "accelerator": "auto",
+    "devices": "auto",
+    "checkpoint_dir": "../checkpoints_person",
+    "checkpoint_filename": "rgb-{epoch:02d}-{val_mIoU:.4f}",
+    "checkpoint_top_k": 3,
+    "checkpoint_monitor": "val/mIoU",
+    "checkpoint_mode": "max"
+  },
+  "logging": {
+    "default_root_dir": "../logs_person",
+    "enable_logger": true,
+    "name": "person",
+    "version": "unet-rgb"
+  }
+}
+
