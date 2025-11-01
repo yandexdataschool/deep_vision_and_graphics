@@ -8,6 +8,8 @@
 - Цель: сравнить качество сегментации людей в COCO val2017 при раннем и позднем слиянии RGB+D.
 - Баллы: 2 части, по 5 баллов каждая (итого 10).
 
+<img width="850" height="396" alt="image" src="https://github.com/user-attachments/assets/c5cb9b38-179e-446e-8699-7ead0864915c" />
+
 ## Часть 1 — Early Fusion (5 баллов)
 - Реализовать и обучить модель раннего слияния [UNetResNet50RGBD](./src/models/unet_rgbd.py).
 - DoD: обучение без ошибок, валидируемая mIoU ≥ 75.75%.
